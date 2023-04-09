@@ -8,13 +8,14 @@
   + 3つのスイッチ（D51,D52,D53） INPUT_PULLUPで利用する。
   + 3つのLED（D45,D47,D49）　HIGHで点灯。
   + サーボ用端子（D10～13）　電源をバッテリー直結かレギュレータ経由か切り替え可能
-  + モータードライバを最大４個搭載可能。
-    + 1ch：D2,D3　2ch：D4,D5　3ch：D6,D7　4ch：D8,D9
   + 複数のI2C端子
     + TJ3B互換［SCL,5V,SDA,GND］を2ポート
     + MPU6050用
     + [AE-BNO055-BO](https://akizukidenshi.com/catalog/g/gK-16996)
     + OLED(128x32)
++ モータードライバTB67H450FNGを最大４個搭載可能。
+  + [TB67H450FNG日本語データシート](https://toshiba.semicon-storage.com/info/TB67H450FNG_datasheet_ja_20201126.pdf?did=65345&prodName=TB67H450FNG)
+  + 1ch：D2,D3　2ch：D4,D5　3ch：D6,D7　4ch：D8,D9
 + 各XHコネクタへの電源は、Mega 内蔵とは別のレギュレータから供給する。ジャンパ接続で内蔵5Vも利用可能。
 + レギュレータを3.3Vに変更することで Arduino Due でも利用可能。
 + 基板サイズ　98 x 98mm、周囲の穴は3.2mm径、5mm間隔
@@ -30,6 +31,7 @@
 + [Arduino Mega 2560 基板(Poloru BD65496MUV)マニュアル](./documents/robot_arduino_mega202203_BD65496MUV_manual.pdf) 2022-04
   - TB67H450以前バージョン。モータードライバの配線は同様なので、同じスケッチが動作する。
   - LED1,2,3が基板パターンに実装されていないのでユニバーサル基板部分に追加すること。 
+  - [BD65496MUV Single Brushed DC Motor Driver Carrier](https://www.pololu.com/product/2960)
 
 
 ## 実装例
