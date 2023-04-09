@@ -26,7 +26,10 @@
 + [sample/](./sample/)  
 
 ## マニュアル
-+ [Arduino Mega 2560 基板(秋月 TB67H450FNG)マニュアル](./documents/robot_arduino_mega202210_AE-TB67H450_manual.pdf)
++ [Arduino Mega 2560 基板(秋月 TB67H450FNG)マニュアル](./documents/robot_arduino_mega202210_AE-TB67H450_manual.pdf) 2022-10
++ [Arduino Mega 2560 基板(Poloru BD65496MUV)マニュアル](./documents/robot_arduino_mega202203_BD65496MUV_manual.pdf) 2022-04
+  - TB67H450以前バージョン。モータードライバの配線は同様なので、同じスケッチが動作する。
+  - LED1,2,3が基板パターンに実装されていないのでユニバーサル基板部分に追加すること。 
 
 
 ## 実装例
