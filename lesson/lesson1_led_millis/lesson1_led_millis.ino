@@ -36,13 +36,14 @@ void loop() {
 
 //  ■課題
 //  (1) 「Arduinoを始めよう」の「Arduino 公式リファレンス」で以下を調べる。
-//    ・const
-//    ・pinMode()
-//    ・digitalWrite()
+//    ・int, long            （他のデータ型も合わせて確認する）
+//    ・%（パーセント記号）  （他の算術演算子も合わせて確認する）
+//    ・if else 文
+//    ・pinMode()、OUTPUT
+//    ・digitalWrite()、HIGH、LOW
 //    ・millis()
-//    ・long
-//    ・%（パーセント記号）
 //    ・delay()
+//    ・const
 //
 //  (2) LED1の点滅間隔を更新する。最初に0.5秒ごとにON/OFFさせる。
 //
